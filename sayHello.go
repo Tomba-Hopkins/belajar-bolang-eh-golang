@@ -1,5 +1,5 @@
 package belajarbolangehgolang
 
-func SayHello() string {
-	return "Halo Pak World HEHEHE hehe"
+func SayHello(name string) string {
+	return "Halo Pak" + name + "HEHEHE hehe"
 }
